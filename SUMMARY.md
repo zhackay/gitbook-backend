@@ -52,10 +52,15 @@
 ## IDE /  Tools
 
 * [Intellij Tools and Troubleshooting](ide-tools/intellij-tools-and-troubleshooting.md)
+* [Intellij and docker](ide-tools/intellij-and-docker.md)
 
 ## Best Practices
 
 * [Resources](best-practices/resources.md)
 * [Change Log](best-practices/change-log.md)
 * [Java Code Review](best-practices/java-code-review.md)
+
+## Others
+
+* [gRPC](others/grpc.md)
 

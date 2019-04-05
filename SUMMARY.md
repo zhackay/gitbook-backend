@@ -40,7 +40,7 @@
     * [Untitled](spring/spring/microservice/untitled-5.md)
     * [Event Driven Architecture \(Reactive System\)](spring/spring/microservice/event-driven-architecture-reactive-system.md)
   * [Maven](spring/spring/untitled-4.md)
-  * [Spring Boot Library](spring/spring/untitled-3.md)
+  * [Deploy to ECS](spring/spring/untitled-3.md)
   * [Swagger for Spring](spring/spring/untitled-2.md)
   * [Untitled](spring/spring/untitled-1.md)
 
@@ -52,4 +52,10 @@
 ## IDE /  Tools
 
 * [Intellij Tools and Troubleshooting](ide-tools/intellij-tools-and-troubleshooting.md)
+
+## Best Practices
+
+* [Resources](best-practices/resources.md)
+* [Change Log](best-practices/change-log.md)
+* [Java Code Review](best-practices/java-code-review.md)
 

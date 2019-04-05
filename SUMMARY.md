@@ -1,6 +1,8 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Introduction](README.md)
+* [Roadmap](roadmap.md)
+* [Initial page](initial-page.md)
 
 ## Data
 
@@ -29,15 +31,25 @@
 
 ## Spring
 
-* [Spring](spring/README.md)
-  * [Spring REST](spring/spring-rest.md)
-  * [Spring REST / JPA](spring/spring-rest-jpa/README.md)
-    * [H2](spring/spring-rest-jpa/h2.md)
-  * [Mockito](spring/untitled.md)
-  * [Microservice](spring/microservice/README.md)
-    * [Untitled](spring/microservice/untitled-5.md)
-    * [Event Driven Architecture \(Reactive System\)](spring/microservice/event-driven-architecture-reactive-system.md)
-  * [Maven](spring/untitled-4.md)
-  * [Untitled](spring/untitled-3.md)
-  * [Untitled](spring/untitled-2.md)
-  * [Untitled](spring/untitled-1.md)
+* [Spring](spring/spring/README.md)
+  * [Spring REST](spring/spring/spring-rest.md)
+  * [Spring REST / JPA](spring/spring/spring-rest-jpa/README.md)
+    * [H2](spring/spring/spring-rest-jpa/h2.md)
+  * [Mockito](spring/spring/untitled.md)
+  * [Microservice](spring/spring/microservice/README.md)
+    * [Untitled](spring/spring/microservice/untitled-5.md)
+    * [Event Driven Architecture \(Reactive System\)](spring/spring/microservice/event-driven-architecture-reactive-system.md)
+  * [Maven](spring/spring/untitled-4.md)
+  * [Spring Boot Library](spring/spring/untitled-3.md)
+  * [Swagger for Spring](spring/spring/untitled-2.md)
+  * [Untitled](spring/spring/untitled-1.md)
+
+## Java
+
+* [Setting up Java Logging](java/setting-up-java-logging.md)
+* [Tips](java/tips.md)
+
+## IDE /  Tools
+
+* [Intellij Tools and Troubleshooting](ide-tools/intellij-tools-and-troubleshooting.md)
+

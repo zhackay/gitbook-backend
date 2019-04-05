@@ -2,9 +2,9 @@
 
 ## INNER JOIN - Intersection
 
-![](../../.gitbook/assets/image%20%283%29.png)
+![](../../.gitbook/assets/image-3.png)
 
-The INNER JOIN clause appears after the FROM clause. The condition to match between table A and table B is specified after the ON keyword. This condition is called _join condition_ i.e., _`B.n = A.n`_
+The INNER JOIN clause appears after the FROM clause. The condition to match between table A and table B is specified after the ON keyword. This condition is called _join condition_ i.e., `B.n = A.n`
 
 ```sql
 SELECT
@@ -25,7 +25,7 @@ INNER JOIN C ON C.n = A.n;
 
 ## LEFT JOIN
 
-![](../../.gitbook/assets/image%20%2821%29.png)
+![](../../.gitbook/assets/image-21.png)
 
 The **inner join** clause **eliminates the rows that do not match** with a row of the other table.
 
@@ -33,9 +33,7 @@ The **left join**, however, **returns all rows from the left table whether or no
 
 ### LEFT JOIN two tables
 
-{% tabs %}
-{% tab title="Query" %}
-![](../../.gitbook/assets/image%20%289%29.png)
+![](../../.gitbook/assets/image-9.png)
 
 ```sql
 SELECT
@@ -50,10 +48,10 @@ LEFT JOIN locations l ON l.country_id = c.country_id
 WHERE
     c.country_id IN ('US', 'UK', 'CN')
 ```
-{% endtab %}
 
-{% tab title="Results" %}
-![](../../.gitbook/assets/image%20%285%29.png)
+
+
+![](../../.gitbook/assets/image-5.png)
 
 Because we use the LEFT JOIN clause, all rows that satisfy the condition in the WHERE clause of the countries table are included in the result set.
 
@@ -62,14 +60,12 @@ For each row in the countries table, the LEFT JOIN clause finds the matching row
 * If at least one matching row found, the database engine combines the data from columns of the matching rows in both tables.
 * In case there is no matching row found e.g., with the country\_id CN, the row in the countries table is included in the result set and the row in the locations table is filled with NULL values.
 * Because non-matching rows in the right table are filled with the NULL values, you can apply the LEFT JOIN clause to miss-match rows between tables.
-{% endtab %}
-{% endtabs %}
 
 ### LEFT JOIN three tables
 
 {% tabs %}
 {% tab title="Query" %}
-![](../../.gitbook/assets/image%20%2811%29.png)
+![](../../.gitbook/assets/image-11.png)
 
 One region may have zero or many countries while each country is located in the one region. The relationship between countries and regions tables is one-to-many. The region\_id column in the countries table is the link between the countries and regions table.
 
@@ -89,7 +85,7 @@ WHERE
 {% endtab %}
 
 {% tab title="Results" %}
-![](../../.gitbook/assets/image%20%284%29.png)
+![](../../.gitbook/assets/image-4.png)
 {% endtab %}
 {% endtabs %}
 
@@ -103,7 +99,7 @@ Because the same table appears twice in a single query, we have to use the table
 
 {% tabs %}
 {% tab title="Setup" %}
-![](../../.gitbook/assets/image%20%2819%29.png)
+![](../../.gitbook/assets/image-19.png)
 {% endtab %}
 
 {% tab title="Get employee with his manager" %}
@@ -120,9 +116,9 @@ ORDER BY manager;
 {% endtab %}
 
 {% tab title="Results" %}
-![](../../.gitbook/assets/image%20%2818%29.png)
+![](../../.gitbook/assets/image-18.png)
 
-The president does not have any manager. 
+The president does not have any manager.
 
 In the employees table, the manager\_id of the row that contains the president is NULL.
 
@@ -145,17 +141,15 @@ ORDER BY manager;
 {% endtab %}
 
 {% tab title="Results" %}
-
-
-![](../../.gitbook/assets/image%20%2817%29.png)
+![](../../.gitbook/assets/image-17.png)
 {% endtab %}
 {% endtabs %}
 
 ## FULL OUTER JOIN
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+![](../../.gitbook/assets/image-14.png)
 
-In theory, a full outer join is the combination of a [left join](http://www.sqltutorial.org/sql-left-join/) and a right join. 
+In theory, a full outer join is the combination of a [left join](http://www.sqltutorial.org/sql-left-join/) and a right join.
 
 The full outer join includes all rows from the joined tables whether or not the other table has the matching row.
 
@@ -192,7 +186,7 @@ VALUES
 {% endtab %}
 
 {% tab title="Query 1" %}
-The following query returns 
+The following query returns
 
 * each fruit that is in a basket and 
 * each basket that has a fruit, but 
@@ -278,7 +272,7 @@ For example, with two sets A {x,y,z} and B {1,2,3}, the Cartesian product of A x
 
 The following picture illustrates the Cartesian product of A and B:
 
-![](../../.gitbook/assets/image%20%2816%29.png)
+![](../../.gitbook/assets/image-16.png)
 
 Similarly, in SQL, a Cartesian product of two tables A and B is a result set in which each row in the first table \(A\) is paired with each row in the second table \(B\). Suppose the A table has n rows and the B table has m rows, the result of the cross join of the A and B tables have n x m rows.
 
@@ -290,7 +284,7 @@ CROSS JOIN B;
 
 The following picture illustrates the result of the cross join between the table A and table B. In this illustration, the table A has three rows 1, 2 and 3 and the table B also has three rows x, y and z. As the result, the Cartesian product has nine rows:
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image-8.png)
 
 Note that unlike the `CROSS JOIN` clause does not have a join condition.
 
@@ -301,6 +295,4 @@ FROM
     A,
     B;
 ```
-
-
 

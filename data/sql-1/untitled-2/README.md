@@ -10,7 +10,7 @@ You often use the GROUP BY in conjunction with an aggregate function such as [MI
 
 ### Filtering
 
-If you want to filter the rows **before grouping**, you add a [WHERE clause](http://www.sqltutorial.org/sql-where/). 
+If you want to filter the rows **before grouping**, you add a [WHERE clause](http://www.sqltutorial.org/sql-where/).
 
 However, **to filter groups**, you use the [HAVING](http://www.sqltutorial.org/sql-having/) clause.
 
@@ -38,7 +38,7 @@ GROUP BY
 {% endtab %}
 
 {% tab title="Results" %}
-![](../../../.gitbook/assets/image%20%2812%29.png)
+![](../../../.gitbook/assets/image-12.png)
 {% endtab %}
 {% endtabs %}
 
@@ -81,7 +81,7 @@ ORDER BY headcount DESC;
 {% endtab %}
 
 {% tab title="Results" %}
-![](../../../.gitbook/assets/image%20%281%29.png)
+![](../../../.gitbook/assets/image-1.png)
 {% endtab %}
 {% endtabs %}
 
@@ -105,7 +105,7 @@ ORDER BY headcount DESC;
 {% endtab %}
 
 {% tab title="Results" %}
-![](../../../.gitbook/assets/image%20%287%29.png)
+![](../../../.gitbook/assets/image-7.png)
 {% endtab %}
 {% endtabs %}
 
@@ -129,7 +129,7 @@ GROUP BY e.department_id;
 {% endtab %}
 
 {% tab title="Results" %}
-![](../../../.gitbook/assets/image%20%282%29.png)
+![](../../../.gitbook/assets/image-2.png)
 {% endtab %}
 {% endtabs %}
 
@@ -151,13 +151,13 @@ GROUP BY e.department_id;
 {% endtab %}
 
 {% tab title="Results" %}
-![](../../../.gitbook/assets/image%20%2815%29.png)
+![](../../../.gitbook/assets/image-15.png)
 {% endtab %}
 {% endtabs %}
 
 ## GROUP BY multiple columns
 
-So far, you have seen that we have grouped all employees by one column. 
+So far, you have seen that we have grouped all employees by one column.
 
 * `GROUP BY department_id`place all rows with the same values in the `department_id` column in one group.
 
@@ -165,7 +165,7 @@ How about grouping employees by values in both `department_id` and `job_id` colu
 
 * `GROUP BY department_id, job_id` will group all employees with the same values in both `department_id` and `job_id`columns in one group.
 
-The following statement 
+The following statement
 
 * groups rows with the same values in both `department_id` and `job_id`columns in the same group 
 * then returns the rows for each of these groups.
@@ -196,7 +196,7 @@ GROUP BY e.department_id , e.job_id;
 {% endtab %}
 
 {% tab title="Results" %}
-![](../../../.gitbook/assets/image%20%286%29.png)
+![](../../../.gitbook/assets/image-6.png)
 {% endtab %}
 {% endtabs %}
 
@@ -222,10 +222,4 @@ GROUP BY
 
 {% endtab %}
 {% endtabs %}
-
-
-
-
-
-
 

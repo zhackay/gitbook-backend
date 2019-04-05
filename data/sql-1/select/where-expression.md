@@ -8,8 +8,6 @@ SELECT | UPDATE | DELETE
     WHERE CustomerID=1;
 ```
 
-
-
 | Operator | Description |
 | :--- | :--- |
 | = | Equal |

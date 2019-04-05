@@ -2,7 +2,7 @@
 
 ## Combine Two Tables
 
-{% embed url="https://leetcode.com/problems/combine-two-tables/" %}
+{% embed url="https://leetcode.com/problems/combine-two-tables/" caption="" %}
 
 {% tabs %}
 {% tab title="Problem" %}

@@ -4,7 +4,7 @@ description: calculates on a set of values and returns a single value.
 
 # Aggregates
 
-Because an aggregate function operates on a set of values, it is often used with the **GROUP BY** clause of the SELECT statement. 
+Because an aggregate function operates on a set of values, it is often used with the **GROUP BY** clause of the SELECT statement.
 
 The GROUP BY clause divides the result set into groups of values and the aggregate function return a single value for each group.
 
@@ -30,14 +30,4 @@ You can use aggregate functions as expressions only in the following:
 ## COUNT
 
 ## SUM
-
-
-
-
-
-
-
-
-
-
 

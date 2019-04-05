@@ -31,8 +31,6 @@ FROM
     invoices;
 ```
 
-
-
 * The `invoice_no` is the alias of the `inv_no` column
 * The `'Due date'` is the column alias of the `due_date` column. Because the alias contains space, we have to use either sing quote \(‘\) or double quotes \(“\) to surround the alias.
 * The `'Customer no'` is the alias of the `cust_no` column. You notice that we did not use the AS keyword. The AS keyword is optional so you can omit it.
@@ -79,7 +77,7 @@ SELECT * FROM Customers ORDER BY Country ASC, CustomerName DESC;
 used to specify the number of records to return.
 
 {% hint style="warning" %}
- MySQL supports the **LIMIT** clause to select a limited number of records, 
+MySQL supports the **LIMIT** clause to select a limited number of records,
 
 Oracle uses **ROWNUM**.
 
@@ -99,14 +97,14 @@ SELECT * FROM Customers
 LIMIT 3;
 ```
 
-#### OFFSET 
+#### OFFSET
 
 The OFF SET value allows us to specify which row to start from retrieving data
 
 ```sql
 # from 2nd row, get 3 results
 SELECT * FROM Customers
-LIMIT 3 OFFSET 2; 
+LIMIT 3 OFFSET 2;
 ```
 
 Or, without OFFSET keyword
@@ -142,14 +140,4 @@ WHERE column_name IS NULL;
 SELECT column_names FROM table_name
 WHERE column_name IS NOT NULL;
 ```
-
-
-
-
-
-
-
-
-
-
 

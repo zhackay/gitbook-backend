@@ -4,6 +4,32 @@
 * [Roadmap](roadmap.md)
 * [Initial page](initial-page.md)
 
+## Spring
+
+* [Spring](spring/spring/README.md)
+  * [Spring REST](spring/spring/spring-rest.md)
+  * [Spring REST / JPA](spring/spring/spring-rest-jpa/README.md)
+    * [H2](spring/spring/spring-rest-jpa/h2.md)
+  * [Mockito](spring/spring/untitled.md)
+  * [Microservice](spring/spring/microservice/README.md)
+    * [Untitled](spring/spring/microservice/untitled-5.md)
+    * [Event Driven Architecture \(Reactive System\)](spring/spring/microservice/event-driven-architecture-reactive-system.md)
+  * [Maven](spring/spring/untitled-4.md)
+  * [Deploy to ECS](spring/spring/untitled-3.md)
+  * [Swagger for Spring](spring/spring/untitled-2.md)
+  * [Untitled](spring/spring/untitled-1.md)
+
+## Java
+
+* [Setting up Java Logging](java/setting-up-java-logging.md)
+* [Tips](java/tips.md)
+
+## IDE /  Tools
+
+* [Intellij Tools and Troubleshooting](ide-tools/intellij-tools-and-troubleshooting.md)
+* [Intellij and docker](ide-tools/intellij-and-docker.md)
+* [Java and Docker](ide-tools/java-and-docker.md)
+
 ## Data
 
 * [SQL](data/sql-1/README.md)
@@ -29,36 +55,13 @@
 * [Data Modeling](data/data-modeling.md)
 * [NoSQL](data/nosql.md)
 
-## Spring
-
-* [Spring](spring/spring/README.md)
-  * [Spring REST](spring/spring/spring-rest.md)
-  * [Spring REST / JPA](spring/spring/spring-rest-jpa/README.md)
-    * [H2](spring/spring/spring-rest-jpa/h2.md)
-  * [Mockito](spring/spring/untitled.md)
-  * [Microservice](spring/spring/microservice/README.md)
-    * [Untitled](spring/spring/microservice/untitled-5.md)
-    * [Event Driven Architecture \(Reactive System\)](spring/spring/microservice/event-driven-architecture-reactive-system.md)
-  * [Maven](spring/spring/untitled-4.md)
-  * [Deploy to ECS](spring/spring/untitled-3.md)
-  * [Swagger for Spring](spring/spring/untitled-2.md)
-  * [Untitled](spring/spring/untitled-1.md)
-
-## Java
-
-* [Setting up Java Logging](java/setting-up-java-logging.md)
-* [Tips](java/tips.md)
-
-## IDE /  Tools
-
-* [Intellij Tools and Troubleshooting](ide-tools/intellij-tools-and-troubleshooting.md)
-* [Intellij and docker](ide-tools/intellij-and-docker.md)
-
 ## Best Practices
 
 * [Resources](best-practices/resources.md)
 * [Change Log](best-practices/change-log.md)
 * [Java Code Review](best-practices/java-code-review.md)
+* [QA and DevOps experience influences view as a developer](best-practices/qa-and-devops-experience-influences-view-as-a-developer.md)
+* [Startup Best practices](best-practices/startup-best-practices.md)
 
 ## Others
 
